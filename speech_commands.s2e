@@ -1,0 +1,7 @@
+{ 	"extensionName": "Speech2Text",
+ 	"extensionPort": 5000,
+ 	"blockSpecs": [
+        ["R", "Begin Mic" , "mic"],
+		["r", "Mic State " , "mic_state"]
+ 	]
+}

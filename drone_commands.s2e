@@ -1,0 +1,27 @@
+{ 	"extensionName": "Tello Control",
+ 	"extensionPort": 5000,
+ 	"blockSpecs": [
+		[" ", "take off", "takeoff"],
+		[" ", "land", "land"],
+		[" ", "fly up with distance %n", "up", 0.4],
+		[" ", "fly down with distance %n", "down", 0.4],
+		[" ", "fly left with distance %n", "left", 0.4],
+		[" ", "fly right with distance %n", "right", 0.4],
+		[" ", "fly forward with distance %n", "forward", 0.4],
+		[" ", "fly back with distance %n", "back", 0.4],
+		[" ", "rotate CW with angle %n", "cw", 90],
+		[" ", "rotate CCW with angle %n", "ccw", 90],
+		[" ", "flip direction %s", "flip", "f"],
+		[" ", "set speed %n", "setspeed", 10],
+		["r", "battery left", "battery"],
+		["r", "speed", "speed"],
+		["r" , "flight time" , "flight_time"],
+		["r" , "Tello State", "tello_state"],
+		[" ", "connect tello", "connect_tello"]
+
+ 	],
+
+ 	"menus": {
+        "state": ["on", "off", "z"]
+	 }
+}

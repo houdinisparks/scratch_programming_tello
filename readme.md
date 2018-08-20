@@ -33,7 +33,7 @@ It will first install your virtual environment if you dont have one, and then st
 To check that the scratch program is detecting the backend server, ensure that there is a green
 circle status output at the *More Blocks* command palette
 
-**To start the backsend server programitically**
+**To start the backsend server programitically (without the .bat script)**  
 Open your command prompt
 ```powershell
 cd <project-dir>

@@ -2,10 +2,10 @@
 A makerfaire 2018 project
 
 ## Overview  
-**Basic Architecture**
+**Basic Architecture**  
 ![Architecture](./imgs/scratch_architecture.png)
 
-**Prerequisitess**
+**Prerequisitess**  
 - Scratch 2.0 Offline Editor [download link](https://scratch.mit.edu/download)
 - DJI Tello (i bought mine for around SGD 135)
 - Python 3.6
@@ -17,7 +17,7 @@ A makerfaire 2018 project
 3) Go to the /projects folder in the project root folder
 4) Select all_projects.sb2 to see preprogrammed templates.
 
-**Scratch Window**
+**Scratch Window**  
 ![Scratch Window](./imgs/scratch_window.png)
 
 You basically drag and drop block commands from the command palette to the execution panel
@@ -34,7 +34,7 @@ To check that the scratch program is detecting the backend server, ensure that t
 circle status output at the *More Blocks* command palette
 
 
-## 3) To connect the drone to the wifi network
+## 3) To connect the drone to the wifi network  
 
 ![Wifi network](./imgs/wifi_networks.png)
 1) Open your wifi panel and connet to the drone's Wifi SSID
@@ -45,7 +45,8 @@ circle status output at the *More Blocks* command palette
 
 You are ready!! :D
 
-## References
-https://www.halfchrome.com/program-the-ryze-tello-with-scratch/ (this one is using nodejs as backend server)
-https://dl-cdn.ryzerobotics.com/downloads/tello/0228/Tello+SDK+Readme.pdf
-https://en.scratch-wiki.info/w/images/ExtensionsDoc.HTTP-9-11.pdf
+## References  
+- https://www.halfchrome.com/program-the-ryze-tello-with-scratch/ (this one is using nodejs as backend server)  
+- https://dl-cdn.ryzerobotics.com/downloads/tello/0228/Tello+SDK+Readme.pdf  
+- https://en.scratch-wiki.info/w/images/ExtensionsDoc.HTTP-9-11.pdf  
+- https://gist.github.com/microlinux/82409619242be5f7210b7fea7bb4251e

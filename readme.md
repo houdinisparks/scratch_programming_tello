@@ -18,7 +18,7 @@ A makerfaire 2018 project
 4) Select all_projects.sb2 to see preprogrammed templates.
 
 **Scratch Window**  
-![Scratch Window](./imgs/scratch_window.png)
+![Scratch Window](imgs/scratch_window2.png)
 
 You basically drag and drop block commands from the command palette to the execution panel
 to program the drone.
@@ -33,6 +33,19 @@ It will first install your virtual environment if you dont have one, and then st
 To check that the scratch program is detecting the backend server, ensure that there is a green
 circle status output at the *More Blocks* command palette
 
+**To start the backsend server programitically**
+Open your command prompt
+```powershell
+cd <project-dir>
+python -m venv venv
+
+# activates the virtual environment
+call venv/Scripts/activate.bat
+pip install -r requirements.txt
+
+# runs the server
+python run.py
+```
 
 ## 3) To connect the drone to the wifi network  
 
